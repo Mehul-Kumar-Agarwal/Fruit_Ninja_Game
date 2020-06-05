@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">     
+    <head>        
+        <title>Fruit Ninja</title>    
+        <meta charset="utf-8">       
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">       
+        <link rel="stylesheet" href="styling.css">    
+        <script src="jquery.min.js"></script>
+        <script src="jquery-ui/jquery-ui.min.js"></script>
+    </head>         
+    <body>     
+        <div id="header">
+            <h1>Fruit Ninja Welcomes You, Click Start to begin the Game!!</h1>
+        </div>        
+        <div class="video-container">
+            <video loop muted autoplay>
+                <source src="video/bg.mp4">
+            </video>
+        </div>
+        <div id="container">         
+            <div id="score">       
+                Score: <span id="scorevalue">0</span>     
+            </div>     
+            <div id="trailsleft">         
+                       
+            </div>
+            <div id="correct">   
+                Correct        
+            </div>          
+            
+            <div id="wrong">   
+                Try again
+            </div>          
+            <div id="fruitsContainer">     
+                <img id="fruit1" class="fruit">
+            </div>           
+            <div id="instruction"> 
+                Catch Fruits            
+            <div id="startreset">         
+                Start Game       
+            </div>          
+                       
+            <div id="gameOver">             
+            </div>       
+        </div>
+        <audio id="audio">
+            <source src="audio/slicefruit.mp3">
+            <source src="audio/slicefruit.ogg">
+        </audio>
+        <script type="text/javascript">
+        </script>
+        <script src="jquery.js">
+            
+        </script>    
+    </body> 
+</html>

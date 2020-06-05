@@ -1,0 +1,157 @@
+html{  
+    height: 100%;  
+    z-index: 1;
+} 
+.video-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+#header{
+    z-index: 5;
+    background-color: #8f8852;
+    position: relative;
+    width: 850px;
+    left: 250px;
+    
+}
+h1{
+    text-align: center;
+}
+#container{   
+    height: 650px;    
+    width: 800px;    
+    background-color: bisque;
+    margin: 50px auto; 
+    padding: 20px;  
+    border-radius: 10px; 
+    position: relative;
+} 
+ 
+#score{    
+    background-color: wheat;   
+    color: #888E5F; 
+    padding: 11px;   
+    position: absolute;  
+    left: 750px;    
+} 
+ 
+#correct{    
+    position: absolute;   
+    left: 260px;  
+    background-color: #42e252;  
+    color: white;    
+    padding: 11px;   
+    display: none;
+} 
+ 
+#wrong{   
+    position: absolute;    
+    left: 250px; 
+    background-color: #de401a;    
+    color: white;  
+    padding: 11px;  
+    display: none; 
+} 
+
+ 
+#fruitsContainer{  
+    width: 650px; 
+    height: 400px;
+    margin: 50px auto 10px auto;  
+    background-color: white; 
+    font-size: 100px;   
+    text-align: center;   
+    font-family: cursive, sans-serif;  
+    color: black;
+    position: relative;
+    overflow: hidden;
+} 
+ 
+#instruction{  
+    width: 300px;    
+    height: 50px;   
+    background-color: #B481D9;   
+    margin: 10px auto;  
+    text-align: center;    
+    line-height: 45px;   
+} 
+ 
+#choices{    
+    width: 450px; 
+    height: 100px;  
+    margin: 5px auto; 
+} 
+ 
+.box{    
+    width: 85px;  
+    height: 85px;  
+    background-color: green;  
+    float: left;    
+    margin-right: 36px;    
+    border-radius: 3px;   
+    cursor: pointer;   
+    text-align: center;    
+    line-height: 80px;  
+    position: relative;  
+} 
+ 
+.box:hover, #startreset:hover{ 
+    /*    background-color: #9C89F6;*/ /*    color: white;*/ /*    box-shadow: 0px 4px #6b54d3;*/ /*    -moz-box-shadow: 0px 4px #6b54d3;*/ /*    -webkit-box-shadow: 0px 4px #6b54d3;*/ 
+} 
+ 
+.box:active, #startreset:active{   
+    background-color: #9C89F6;   
+    color: white;     
+    top: 4px;
+} 
+#box4{   
+    margin-right: 0; 
+} 
+ 
+#startreset{    
+    width: 78px;   
+    padding: 12px; 
+    background-color:cornsilk;   
+    margin: 0 auto;  
+    border-radius: 9px;  
+    cursor: pointer;     
+    text-align: center; 
+    position: relative; 
+    transition: all 0.2s;     
+    top: 12px;
+} 
+ 
+#trailsleft{   
+    width: 80px;  
+    padding: 10px;    
+    position: absolute; 
+    background-color: #F1FF92;
+    border-radius: 3px;   
+    display: none; 
+} 
+ 
+#gameOver{    
+    height: 200px;  
+    width: 500px;   
+    background-color: coral;    
+    color: white;   
+    font-size: 2.5em;     
+    text-align: center;   
+    text-transform: uppercase;  
+    position: absolute;    
+    top: 170px;    
+    left: 160px;    
+    z-index: 2;    
+    display: none;  
+} 
+.heart{
+    width: 15px;
+    height: 15px;
+    margin: 0 5px;
+}
+.fruit{
+    display: none;
+    position: absolute;
+}
